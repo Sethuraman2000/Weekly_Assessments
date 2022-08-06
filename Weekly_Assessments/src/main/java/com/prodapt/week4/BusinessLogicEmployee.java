@@ -8,12 +8,13 @@ import java.util.stream.Collectors;
 public class BusinessLogicEmployee {
 	ArrayList<Employee> addDetails() {
        
+		
         ArrayList<Employee> details= new ArrayList<Employee>();
         details.add(new Employee(8001, "Sethuraman",21, 100000f, "SSE"));
         details.add(new Employee(8002, "Sahishkumar",19, 75000f, "SE"));
         details.add(new Employee(8003, "Siddharth",20, 50000f, "ASE"));
         details.add(new Employee(8004, "Rohieth",18, 40000f, "ASE"));
-        details.add(new Employee(8004, "Vishnu",18, 60000f, "ASE"));        
+        details.add(new Employee(8005, "Vishnu",18, 60000f, "ASE"));        
         
         details.stream().forEach((i)->System.out.println(i));
         return details;
